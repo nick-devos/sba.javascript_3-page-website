@@ -6,9 +6,13 @@ html {
 }
 /* end all pages */
 
+.navbar {
+    background-color: rgba(0,0,0,.8)!important;
+}
+
 /* index page */
 #index {
-    background-image: url('https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?cs=srgb&dl=information-sign-on-shelf-251225.jpg&fm=jpg');
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fd0o107bmuck11.gif&f=1&nofb=1');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -90,3 +94,17 @@ html {
     padding: 2em;
 }
 /* end page 3 */
+
+#index .foot {
+    position: absolute;
+}
+
+.foot {
+    color: white;
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+    height: 3%;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+}
