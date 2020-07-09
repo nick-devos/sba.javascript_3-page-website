@@ -11,19 +11,20 @@
 * Photos: `https://www.gamestop.com/`, `https://www.reddit.com/r/cyberpunkgame/comments/9d3cv6/cyberpunk_2077_wallpaper_for_pc/`, `'https://cdn.wccftech.com/wp-content/uploads/2019/06/cyberpunk-2077-keyart.jpg'`
 
 ### Page 1
-##### Home - Landing Page
+#### Home - Landing Page
 * Form for sign-in
-* Nice gif background
+* Nice .gif background
 
 ### Page 2
-##### Product Selection Page
+#### Product Selection Page
 * Bootstrap cards used for each product
 * Each card contains an image, button for adding to cart, and price
 
 ### Page 3
-##### Cart Page
+#### Cart Page
 * Second form area for detailed check-out
 * Multiple input areas for things like names, address, and payment options
+* HTML table used to show products ordered
 
 
 
@@ -53,7 +54,7 @@
   - [ ] Use animations (Optional)
 
 * Javascript
-  - [ ] External scripts
+  - [x] External scripts
   - [ ] Use variables, if statements, loops, at least one form of collections, functions/call back, and events
   - [ ] Use AJAX (Optional) 
   - [ ] Use JSON or XML (Optional)
