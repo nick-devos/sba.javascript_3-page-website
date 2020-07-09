@@ -93,6 +93,16 @@ html {
 #cart-form {
     padding: 2em;
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #89b7ebbd;
+    color: white;
+    padding-right: 3em;
+  }
 /* end page 3 */
 
 #index .foot {
