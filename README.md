@@ -8,6 +8,7 @@
 ### Resources used
 * Bootstrap: `https://getbootstrap.com/`
 * Google fonts: `https://fonts.google.com/`
+* Photos: `https://www.pexels.com/`
 
 
 
@@ -15,8 +16,8 @@
 
 
 
-
-
+* Some resources for free content:
+  * GIFs: `https://www.motionelements.com/stock-image-10116013-business-and-startup-4k`
 
 * Useful API sites:
   * https://rapidapi.com/ (Links to an external site.)

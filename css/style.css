@@ -1,18 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+/* all pages */
 html {
     font-family: 'Lato', sans-serif;
 }
+/* end all pages */
 
+/* index page */
 #index {
-    background-color: deepskyblue;
+    background-image: url('https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?cs=srgb&dl=information-sign-on-shelf-251225.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+    font-size: small;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+/* end index page */
+
+/* page 2 */
 #page2 {
     background-color: darkslategray;
 }
 
+
+#page2 .jumbotron {
+    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2019/06/cyberpunk-2077-keyart.jpg');
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+    #page2 .jumbotron {
+      padding-top: 25rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  #page2 .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #page2 .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  #page2 .jumbotron .container {
+    max-width: 40rem;
+  }
+/* end page 2 */
+
+/* page 3 */
 #page3 {
-    background-color: salmon;
+    background-color: rgba(194, 197, 194, 0.719);
 }
 
+#cart-form {
+    padding: 2em;
+}
+/* end page 3 */
