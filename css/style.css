@@ -81,8 +81,14 @@ html {
     max-width: 40rem;
   }
 
-  .album {
+  .album, .table-container {
     background-color: rgba(0,0,0,.4)!important;
+  }
+
+  hr {
+    border-color: white!important;
+    padding: 0;
+    margin: 0;
   }
 /* end page 2 */
 
@@ -102,10 +108,6 @@ tr:nth-child(even) {
 th {
     padding-right: 3em;
   }
-
-table {
-  padding-bottom: 2em;
-}
 /* end page 3 */
 
 #index .foot {

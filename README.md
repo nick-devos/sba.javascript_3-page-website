@@ -39,7 +39,7 @@
   - [x] Use at least 10 different HTML tags
   - [ ] Use HTML tables
   - [x] Implement at least two uses for forms
-  - [ ] Dropped Down Menu 
+  - [x] Dropped Down Menu 
   - [x] Use web fonts
   - [x] Use different types of content in the form of text, images, videos, and GIFs
   - [ ] Use regex validation
@@ -55,7 +55,7 @@
 
 * Javascript
   - [x] External scripts
-  - [ ] Use variables, if statements, loops, at least one form of collections, functions/call back, and events
+  - [x] Use variables, if statements, loops, at least one form of collections, functions/call back, and events
   - [ ] Use AJAX (Optional) 
   - [ ] Use JSON or XML (Optional)
   - [ ] Use JQuery (Optional)
