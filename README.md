@@ -1,6 +1,6 @@
 # AD - SBA - HTML/CSS/JavaScript
 
-
+Please use this link to access my website: 
 
 ### Description
 * This 3-page website was designed to fulfill the requirements of the Per Scholas HTML, CSS, & Javascript SBA. 
@@ -19,11 +19,14 @@
 #### Product Selection Page
 * Bootstrap cards used for each product
 * Each card contains an image, button for adding to cart, and price
+* HTML table at bottom of page uses iterates through an array with JS to populate table
+* Short animations on buttons on hover
 
 ### Page 3
 #### Checkout Page
 * Second form area for detailed check-out
 * Multiple input areas for things like names, address, and payment options
+* Payment type uses a dropdown menu as required
 
 
 
@@ -37,12 +40,12 @@
 * HTML
   - [x] Have at least 3 pages, keep the grid system consistent as much as possible
   - [x] Use at least 10 different HTML tags
-  - [ ] Use HTML tables
+  - [x] Use HTML tables
   - [x] Implement at least two uses for forms
   - [x] Dropped Down Menu 
   - [x] Use web fonts
   - [x] Use different types of content in the form of text, images, videos, and GIFs
-  - [ ] Use regex validation
+  - [x] Use regex validation
 
 * CSS
   - [x] Inline, internal, and external styling
@@ -51,7 +54,7 @@
   - [x] Use colors that complement each other
   - [ ] Use Flexbox (Optional)
   - [ ] Use SASS/SCSS (Optional)
-  - [ ] Use animations (Optional)
+  - [x] Use animations (Optional)
 
 * Javascript
   - [x] External scripts
