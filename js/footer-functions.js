@@ -1,5 +1,5 @@
-var cart = [['The Last of Us: Part II', 0], ['Ghost of Tsushima', 0], ['Cyberpunk 2077', 0], ['Detroit Become Human', 0], ['Spyro Reignited Trilogy', 0],
-            ['Need For Speed Heat', 0], ['Call of Duty Modern Warfare', 0], ['MLB The Show 20', 0], ['Marvels Spider-Man Game of the Year Edition', 0]];
+var cart = [['The Last of Us: Part II', 0, 59.99], ['Ghost of Tsushima', 0, 59.99], ['Cyberpunk 2077', 0, 59.99], ['Detroit Become Human', 0, 19.99], ['Spyro Reignited Trilogy', 0, 29.99],
+            ['Need For Speed Heat', 0, 29.99], ['Call of Duty Modern Warfare', 0, 59.99], ['MLB The Show 20', 0, 39.99], ['Marvels Spider-Man Game of the Year Edition', 0, 39.99]];
 
 function addToCart(evt) {
     console.log(evt);
@@ -25,6 +25,13 @@ function addToCart(evt) {
         default: alert('Mismatched Names');
             break;
     }
-console.log(cart);
+}
+
+function getCart() {
+    for(let x = 0; x < cart.length; x++) {
+        if(cart[x][1] > 0) {
+            document.write('<tr><td>'+cart[x][0]+'</td><td>'+cart[x][1]+'</td><td>'+(cart[x][2])*(cart[x][1])+'</td></tr>');
+        }
+    }
 }
 

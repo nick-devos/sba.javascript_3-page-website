@@ -21,10 +21,10 @@
 * Each card contains an image, button for adding to cart, and price
 
 ### Page 3
-#### Cart Page
+#### Checkout Page
 * Second form area for detailed check-out
 * Multiple input areas for things like names, address, and payment options
-* HTML table used to show products ordered
+
 
 
 
