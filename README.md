@@ -1,6 +1,6 @@
 # AD - SBA - HTML/CSS/JavaScript
 
-Please use this link to access my website: 
+Please use this link to access my website: https://nick-devos.github.io/sba.javascript_3-page-website/
 
 ### Description
 * This 3-page website was designed to fulfill the requirements of the Per Scholas HTML, CSS, & Javascript SBA. 
